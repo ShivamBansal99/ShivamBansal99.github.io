@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Begining is all that is needed
 
 You can use the [editor on GitHub](https://github.com/ShivamBansal99/ShivamBansal99.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
