@@ -1,6 +1,5 @@
 ## Welcome to GitHub Pages
-title:A great begining
-description: Nothing much to tell about now...
+
 You can use the [editor on GitHub](https://github.com/ShivamBansal99/ShivamBansal99.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
