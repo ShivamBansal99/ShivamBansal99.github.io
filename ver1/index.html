@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<title>Shivam Bansal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="shortcut icon" type="image/jpg" href="mefv.jpg" />
+<link rel="stylesheet" href="wstyle.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.not{
+    z-index:1;
+    opacity:0.5;
+    color:white;
+    background-color:black;
+}
+.cont{
+    position : relative;
+}
+.el{
+    position : absolute;
+    background-color:black;
+    border-radius:10px;
+    display : none;
+    bottom : 25px;
+    left : -30px;
+    opacity : 0.9;
+    color: white;
+}
+.arrow {
+    position: absolute;
+  bottom: 15px;
+  left:-5px;
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black;
+  display:none;
+}
+.cont:hover .el{
+    display:block;
+}
+.cont:hover .arrow{
+    display:block;
+    z-index: 1;
+}
+</style>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body class="w3-light-grey">
+<span style="position:fixed" id="activ" ></span>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="me.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2 style="color:white">Shivam Bansal</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Student, IIT Delhi</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Delhi, India</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Shivam.Bansal.cs117@cse.iitd.ac.in</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>Never Call me!</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Programing Languages</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+          </div>
+          <p>Frameworks</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">
+              <div class="w3-center w3-text-white">40%</div>
+            </div>
+          </div>
+          <p>Prog. Environment</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>C</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
+          </div>
+          <p>Java</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:40%"></div>
+          </div>
+          <p>Python</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Nothing</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Birth -  <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Actually nothing...</p>
+        </div>
+        </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>IIT, Delhi</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021</h6>
+          <p>Bachelor's Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><abbr title="Government Model Senior Secondary School">GMSSS</abbr>, Chandigarh</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017</h6>
+          <p>12th Standard</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Manav Mangal School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015</h6>
+          <p>10th Standard</p><br>
+        </div>
+      </div>
+         <br />
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>CV</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Download CV</b></h5>
+          <h6 class="w3-text-teal"><span class="w3-tag w3-teal w3-round" style="position:relative;left:10px;"><a href="Shivam.pdf">Here</a></span></h6>
+        </div>
+       </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div> 
+
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <a href="https://www.facebook.com/anmolbansall"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/shivam.bansal_/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <span class="cont">
+	<i class="fa fa-snapchat w3-hover-opacity"> </i>
+        <span class="el">Not available</span><i class="arrow"></i>
+  </span>
+  <span class="cont">
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <span class="el">Not available</span><i class="arrow"></i>
+  </span>
+  <a href="https://twitter.com/shivambansal45"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <span class="cont">
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <span class="el">Not available</span><i class="arrow"></i>
+  </span>
+</footer>
+<script>
+
+var a= document.activeElement;
+document.getElementById("activ").innerHtml=a;
+</script>
+</body>
+</html>
